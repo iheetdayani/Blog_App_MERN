@@ -1,0 +1,12 @@
+POST http://localhost:5000/api/blogs HTTP/1.1
+content-type: application/json
+
+{
+  "title": "Introduction to MERN Stack",
+  "content": "MERN Stack is a popular technology stack used to build modern full-stack web applications.",
+  "author": "Heet Dayani",
+  "category": "Technology",
+  "image": "mern-stack.jpg"
+}
+###
+GET http://localhost:5000/api/blogs/getBlogAll
